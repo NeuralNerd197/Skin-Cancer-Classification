@@ -1,2 +1,9 @@
-# Skin-Cancer-Classification
-This project utilizes Convolutional Neural Networks (CNNs) to classify skin cancer types using the HAM10000 dataset. We implement hyperparameter tuning to obtain the best parameters for model training before leveraging these parameters to achieve optimal classification accuracy.
+The Skin Cancer classification using CNN project involves the development of a neural network model using the HAM10000 dataset to classify skin lesions into seven categories: actinic keratosis, basal cell carcinoma, benign keratosis-like lesions, dermatofibroma, melanoma, melanocytic nevi, and vascular lesions.
+
+The first step in the project involved obtaining the best parameters for model training using a Hyperparameter tuning method. This involved exploring and testing different combinations of parameters, such as learning rates, batch sizes, and the number of epochs, to find the optimal settings for the model. This step ensured that the model would be trained using the most suitable parameter values, resulting in improved accuracy and reduced training time.
+
+Once the best parameters were identified, the model was trained using the HAM10000 dataset. The dataset contains 10,015 dermatoscopic images, with the largest category being melanocytic nevi (67.3%) and the smallest being vascular lesions (1.0%). The trained model was then evaluated using a separate dataset to test its accuracy and generalizability.
+
+The use of a CNN in this project was key to the successful classification of skin lesions. CNNs are effective for image classification tasks as they can learn meaningful features from images and generalize well to new data. By training a CNN to classify skin lesions, the model is able to identify patterns and features that are indicative of specific skin conditions, even in cases where the visual manifestations of these conditions may be subtle or difficult to detect.
+
+Overall, this project demonstrates the effectiveness of using a CNN for skin lesion classification, and highlights the importance of optimizing model parameters to achieve the best possible accuracy. The trained model has high potential for clinical use and can assist medical practitioners in the accurate and timely diagnosis of skin conditions.
